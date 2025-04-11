@@ -20,6 +20,8 @@ class TestSalaryCalculator(unittest.TestCase):  # Fixed TestCase definition
         self.assertEqual(net, 1000)
 
 
+
+
         hours_worked = 0
         gross, net = calculate_salary(hours_worked, hourly_rate, deductions)
         self.assertEqual(gross, 0)
