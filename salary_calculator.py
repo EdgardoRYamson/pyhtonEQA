@@ -4,7 +4,6 @@ def calculate_salary(hours_worked, hourly_rate, deductions):
     return gross_salary, net_salary
 
 
-
 print("Salary Calculator")
 
 hours = float(input("Enter total working hours: "))
