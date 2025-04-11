@@ -1,9 +1,10 @@
 
+
 import unittest
 from salary_calculator import calculate_salary
 
 
-class TestSalaryCalculator(TestCase):
+class TestSalaryCalculator(unittest.TestCase):  # Fixed TestCase definition
     def test_gross_and_net_salary(self):
 
         hours_worked = 40
