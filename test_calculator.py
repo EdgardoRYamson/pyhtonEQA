@@ -1,7 +1,8 @@
 import unittest
 from salary_calculator import calculate_salary
 
-class TestSalaryCalculator(unittest. TestCase):
+
+class TestSalaryCalculator(unittest.TestCase):
     def test_gross_and_net_salary(self):
 
         hours_worked = 40
@@ -21,6 +22,7 @@ class TestSalaryCalculator(unittest. TestCase):
         gross, net = calculate_salary(hours_worked, hourly_rate, deductions)
         self.assertEqual(gross, 0)
         self.assertEqual(net, 0)
+
 
 if __name__ == '__main__':
     unittest.main()
