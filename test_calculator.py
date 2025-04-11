@@ -1,4 +1,5 @@
 
+import unittest
 from salary_calculator import calculate_salary
 
 
@@ -25,5 +26,4 @@ class TestSalaryCalculator(TestCase):
 
 
 if __name__ == '__main__':
-
-    
+    unittest.main()
