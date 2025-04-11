@@ -3,7 +3,9 @@ def calculate_salary(hours_worked, hourly_rate, deductions):
     net_salary = gross_salary - deductions
     return gross_salary, net_salary
 
-print("Salary Calculator")  
+
+
+print("Salary Calculator")
 
 hours = float(input("Enter total working hours: "))
 rate = float(input("Enter hourly rate: "))
